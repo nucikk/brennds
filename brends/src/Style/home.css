@@ -1,22 +1,67 @@
 .home-wrapper {
-    padding: 50px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .home-banner {
-    height: 880px;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 50px;
-  }
-  
-  .home-banner img:first-child {
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 2;
-  }
-  
-  .home-banner img:nth-child(2),
-  .home-banner img:nth-child(3) {
-    grid-column: 2 / span 1;
-  }
+  padding: 3.125rem 6.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*!BANNER style */
+.home-banner {
+  height: 55rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 3.125rem;
+}
+
+.home-banner img:first-child {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.home-banner img:nth-child(2),
+.home-banner img:nth-child(3) {
+  grid-column: 2 / span 1;
+}
+
+/* !CONTENT  style  */
+.home-content {
+  min-width: 640px;
+}
+
+.home-heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 120%;
+}
+
+.home-btn-topic {
+  font-weight: 600;
+  font-size: 30px;
+  width: 507px;
+  height: 78px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  background-color: #fff;
+  margin: 60px 0 40px;
+}
+
+.home-timeline {
+  width: 620px;
+}
+
+.home-timeline p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  padding: 30px 0;
+}
+
+.home-timeline p:first-child {
+  padding: 0px;
+}
+
+.timeline-photo {
+  margin-top: 50px;
+}
