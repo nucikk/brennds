@@ -3,6 +3,7 @@ import bannerImage1 from "../Image/Rectangle 63.png";
 import bannerImage2 from "../Image/Rectangle 64.png";
 import bannerImage3 from "../Image/Rectangle 65.png";
 import timelineImage from "../Image/Rectangle 58.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -16,7 +17,10 @@ const Home = () => {
       {/* Home Content */}
       <div className="home-content">
         <h1 className="home-heading">Brand Application</h1>
-        <button className="home-btn-topic">Brand Application Elements</button>
+        <Link to="/informative">
+            <button className="home-btn-topic">Brand Application Elements</button>
+        </Link>
+
 
         {/* Home Timeline */}
         <div className="home-timeline">
