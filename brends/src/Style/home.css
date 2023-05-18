@@ -1,4 +1,4 @@
-.home-wrapper {
+.home-wrapper, .info-wrapper {
   padding: 3.125rem 6.25rem;
   display: flex;
   justify-content: space-between;
@@ -6,7 +6,7 @@
 
 /*!BANNER style */
 .home-banner {
-  height: 55rem;
+  height: 53.79rem;
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 3.125rem;
@@ -27,7 +27,7 @@
   min-width: 640px;
 }
 
-.home-heading {
+.home-heading, .info-title {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 64px;
@@ -37,7 +37,7 @@
 .home-btn-topic {
   font-weight: 600;
   font-size: 30px;
-  width: 507px;
+  width: 31.6875rem;
   height: 78px;
   border-radius: 50px;
   border: 1px solid #000000;
@@ -46,7 +46,7 @@
 }
 
 .home-timeline {
-  width: 620px;
+  width: 38.75rem;
 }
 
 .home-timeline p {
