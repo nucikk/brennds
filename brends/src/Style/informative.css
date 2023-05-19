@@ -3,7 +3,7 @@
 }
 
 .info-content {
-  width: 1225px;
+  width: 76.5625rem;
 }
 
 .info-title,
@@ -14,9 +14,39 @@
 .info-description {
   width: 59.6875rem;
   height: 144px;
-  margin: 60px 122px;
+  margin: 60px 122px 100px;
   margin-left: auto;
   font-family: "Inter", sans-serif;
   line-height: 150%;
   font-size: 24px;
+}
+
+.informative-side-container{
+  height: 18.75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.informative-buttons {
+  width: 25rem;
+  border: 1px solid #000000;
+  border-radius: 30px;
+}
+
+.informative-buttons button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 40px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  margin: 30px auto;
+  font-family: "Inter", sans-serif;
+  border-radius: 50px;
+  background-color: #ffffff; 
+  border: 1px solid #000000;
+  transform: rotate(-7deg);
 }
